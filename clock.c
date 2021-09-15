@@ -67,7 +67,7 @@ void draw_clock_state(FILE *fp, int hour, int minute, int second) {
     angle = M_PI / 2 - precise_hour * 2 * M_PI / 12;
     draw_line_from_origin(fp, angle, HOUR_HAND_LENGTH, 5, "black");
     draw_line_from_origin(fp, angle + M_PI, HOUR_HAND_LENGTH * 0.2, 5, "black");
-};
+}
 
 int main(void) {
     int hour, minute, second;
